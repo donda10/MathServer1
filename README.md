@@ -117,11 +117,6 @@ Publish the website in the given URL.
     </body>
 </html>
 
-```
-
-
-## SERVER SIDE PROCESSING:
-```
 viwes.py
 from django.shortcuts import render
 def surfacearea(request):
@@ -153,8 +148,11 @@ urlpatterns = [
     path('',views.surfacearea,name="surfaceareaofcylinderroot")
 ]
 
-
 ```
+
+
+## SERVER SIDE PROCESSING:
+![alt text](<Screenshot (36).png>)
 
 
 ## HOMEPAGE:
